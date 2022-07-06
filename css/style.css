@@ -5,9 +5,12 @@ margin: 0%;
 }
 
 p{
-    font-size: 20px;
-    color: rgb(173, 157, 157);
+    font-size: 17px;
+    color: rgb(150, 139, 139);
     text-align: center;
+}
+h3{
+    font-size: 30px;
 }
 a{
     color: white;
@@ -77,7 +80,7 @@ a{
     margin-left: 2%;
 }
 
-/* CSS for forth Section */
+/* CSS for fourth Section */
 hr {
     width: 50%;
     margin-bottom: 50px;
@@ -85,4 +88,127 @@ hr {
 /* CSS for fifth Section */
 .donate_plan {
     padding-top: 40px;
+}
+
+/* CSS for Sixth Section */
+.doate_money{
+    display: flex;
+    padding-left: 100px;
+    padding-bottom: 60px;
+}
+.doate_money p{
+    font-size: 15px;
+    color: rgb(150, 139, 139);
+    text-align:justify;
+    padding-bottom: 30px;
+}
+.doate_money img{
+    padding-top: 50px;
+}
+.food{
+    background-color: rgb(230, 236, 234);
+    width: 30%;
+    margin-right: 2%;
+    padding:10px
+}
+.education{
+    background-color: rgb(250, 213, 219);
+    width: 30%;
+    margin-right: 2%;
+    padding:10px
+}
+.shelter{
+    background-color: cornsilk;
+    width: 30%;
+    margin-right: 2%;
+    padding:10px
+}
+
+/* CSS for Seventh Section */
+.join{
+    background-image: url(../images/donation13.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 200px;
+    display: flex;
+    
+}
+.community{
+    background-color: rgb(249, 252, 253);
+    border: 1px;
+    width: 40%;
+    height: 60%;
+    margin-left: 300px;
+}
+.join h1{
+    
+    color: rgb(12, 11, 11);
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0%;
+}
+.join p{
+    color: rgb(17, 16, 16);
+    font-size: 20px;
+    text-align: center;
+ 
+   
+}
+.join a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: rgb(253, 116, 139);
+    border: 2px;
+    padding: 15px 40px;
+    border-radius: 10px;
+    margin-left: 200px;
+    text-align:center
+}
+/* Form Section */
+
+.subscribe {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    background-color: cornsilk;
+	width: 800px;
+	height: 200px;
+    margin: auto;
+}
+.form__email {
+	padding: 10px 10px;
+	width: 300px;
+	font-size: 18px;
+    border: none;
+    background-color: rgb(230, 236, 234);
+	color: rgb(150, 139, 139);
+}  
+
+.form__button {
+	background: rgb(253, 116, 139);
+	border: none;
+	width: 200px;
+	height: 40px;
+	border-radius: 5px;
+	font-size: 18px;
+	color: white;
+}
+
+/* footer section */
+footer{
+    background-color: black;
+    padding-bottom: 40px;
+}
+footer h2{
+    text-align: center;
+    color: rgb(160, 82, 36);
+    padding-top: 40px;
+   
+}
+footer p {
+    color: rgb(155, 180, 202);
+    font-size: 15px;
+    text-align: center;
 }
