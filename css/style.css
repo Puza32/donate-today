@@ -129,16 +129,16 @@ hr {
     background-image: url(../images/donation13.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    padding-bottom: 200px;
+    padding-bottom: 300px;
     display: flex;
     
 }
 .community{
     background-color: rgb(249, 252, 253);
     border: 1px;
-    width: 40%;
-    height: 60%;
-    margin-left: 300px;
+    width: 600px;
+    height: 300px;
+    margin:auto;
 }
 .join h1{
     
@@ -176,9 +176,11 @@ hr {
 	width: 800px;
 	height: 200px;
     margin: auto;
+
 }
 .form__email {
 	padding: 10px 10px;
+    margin: -44px;
 	width: 300px;
 	font-size: 18px;
     border: none;
@@ -187,7 +189,7 @@ hr {
 }  
 
 .form__button {
-	background: rgb(253, 116, 139);
+	background: rgb(224, 87, 38);
 	border: none;
 	width: 200px;
 	height: 40px;
@@ -200,6 +202,7 @@ hr {
 footer{
     background-color: black;
     padding-bottom: 40px;
+    margin-top: 100px;
 }
 footer h2{
     text-align: center;
